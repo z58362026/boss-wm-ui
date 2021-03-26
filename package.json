@@ -68,5 +68,18 @@
     "browserslist": [
         "Android >= 4.0",
         "iOS >= 8"
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:z58362026/boss-wm-ui.git"
+    },
+    "keywords": [
+        "ui",
+        "vue",
+        "vue3",
+        "mobile",
+        "component",
+        "components"
+    ],
+    "author": "wangming"
 }
