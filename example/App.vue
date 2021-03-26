@@ -1,6 +1,6 @@
 <template>
     <img alt="Vue logo" src="./assets/logo.png" />
-    <boss-button>阿斯顿发四大</boss-button>
+    <boss-button label="阿斯顿发四大"></boss-button>
 </template>
 
 <script lang="ts">

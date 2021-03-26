@@ -28,7 +28,7 @@ export default createComponent({
     setup(props) {
         return () => (
             <button
-                className={bem('test-elem2', {
+                className={bem('', {
                     primary: props.primary,
                     secondary: !props.primary,
                     [`${props.size}`]: true,
