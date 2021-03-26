@@ -1,14 +1,16 @@
 <template>
     <img alt="Vue logo" src="./assets/logo.png" />
-    <boss-test></boss-test>
+    <boss-button>阿斯顿发四大</boss-button>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
+// import BossButton from 'boss-wm-ui/lib/Button/index'
 export default defineComponent({
     name: 'App',
-    components: {},
+    components: {
+        // BossButton
+    },
 })
 </script>
 

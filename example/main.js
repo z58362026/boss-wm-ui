@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import * as bossWMUi from '../lib'
+import * as bossWMUi from 'boss-wm-ui'
 
 const app = createApp(App)
 

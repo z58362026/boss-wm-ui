@@ -3589,6 +3589,14 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+boss-wm-ui@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/boss-wm-ui/-/boss-wm-ui-1.0.0.tgz#49e39aed83825c0ccbd2393359532a8d2dc007e8"
+  integrity sha512-imAny7g4rK19ng6A0m+D8LwmNPkEnnQ8SL6E9BrnYGC6bNVlMeOcEfUZA/FYjMBSUpdglyoTc3BA1eueJ+2X1A==
+  dependencies:
+    vue "^3.0.0"
+    vue-next "^0.0.1"
+
 boxen@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-4.2.0.tgz#e411b62357d6d6d36587c8ac3d5d974daa070e64"
