@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        // this enables stricter inference for data properties on `this`
+        "strict": true,
+        "jsx": "preserve",
+        "declaration": true, // 生命文件
+        "moduleResolution": "node"
+    },
+    "exclude": ["node_modules", "stories"]
+}
