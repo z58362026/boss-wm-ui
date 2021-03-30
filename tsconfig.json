@@ -8,5 +8,6 @@
         "declaration": true, // 生命文件
         "moduleResolution": "node"
     },
+    "include": ["types/**/*", "src/**/*"],
     "exclude": ["node_modules", "stories"]
 }

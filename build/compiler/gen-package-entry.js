@@ -34,16 +34,19 @@ function genExports(names) {
 function genPackageEntry(options) {
     const components = utils.getEntries('src/components')
     const namesArr = Object.keys(components)
-    const content = `import { App } from 'vue'
-${genImports(components)}
+    const content = `${genImports(components)}
 
 const components = {
     ${genExports(namesArr)}
 }
 
-const install = (app: App) => {
+function install(Vue: any) {
     Object.values(components).forEach((component) => {
-        app.component(component.name, component)
+        if (component.install) {
+            Vue.use(component)
+        } else if (component.name) {
+            Vue.component(component.name, component)
+        }
     })
 }
 
